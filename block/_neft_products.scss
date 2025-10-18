@@ -1,0 +1,160 @@
+    .neft_products {
+        width: 1700px;
+        height: 820px;
+        margin: auto;
+        padding-top: 50px;
+        border: 1px solid ;
+        position: relative;
+        display: flex;
+
+    &_product {
+        width: 850px;
+        height: 700px;
+        background-image: url(../images/toplivo_1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 118px;
+    }
+
+    &_product_div {
+        width: 430px;
+        height: 300px;
+        border-radius: 10px;
+        background: rgba(44, 44, 44, 0.8);
+        backdrop-filter: blur(2.5px);
+        position: absolute;
+        top: 400px;
+        left: 430px;
+    }
+
+    &_product_div_title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+
+    &_product_div_text {
+        width: 310px;
+        height: 72px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #CECECE;
+        position: absolute;
+        top: 100px;
+        left: 40px;
+    }
+
+    &_div_btn {
+        width: 350px;
+        height: 50px;
+        background-color: #DBA833;
+        border: none;
+        position: absolute;
+        top: 200px;
+        left: 40px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &_div_btn:hover {
+        background-color: black;
+        color: blue;
+    }
+
+    &_div_btn:active {
+        background-color: black;
+        color: cyan;
+    }
+
+    &_product_1 {
+        width: 850px;
+        height: 700px;
+        background-image: url(../images/toplivo_2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 118px;
+        left: 850px;
+    }
+
+    &_product_div_1 {
+        width: 430px;
+        height: 300px;
+        border-radius: 10px;
+        background: rgba(44, 44, 44, 0.8);
+        backdrop-filter: blur(2.5px);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    &_product_div_title_1 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+
+    &_product_div_text_1 {
+        width: 310px;
+        height: 72px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #CECECE;
+        position: absolute;
+        top: 100px;
+        left: 40px;
+    }
+
+    &_div_btn_1 {
+        width: 350px;
+        height: 50px;
+        background-color: #DBA833;
+        border: none;
+        position: absolute;
+        top: 200px;
+        left: 40px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &_div_btn_1:hover {
+        background-color: black;
+        color: blue;
+    }
+
+    &_div_btn_1:active {
+        background-color: black;
+        color: cyan;
+    }
+  }

@@ -1,0 +1,99 @@
+    .footer {
+        width: 1700px;
+        height: 200px;
+        margin: auto;
+        padding: 50px;
+        background: #E5E5E5;
+        // display: flex;
+
+    &_line {
+        width: 1600px;
+        height: 1px;
+    }
+
+    &_div {
+        width: 800px;
+        height: 94px;
+        border-radius: 30px;
+        border: 1px solid #AFB4C4;
+        margin-top: 25px;
+        display: flex;
+    }
+
+    &_icon_and_text {
+        display: flex;
+        gap: 15px;
+        margin: 30px;
+    }
+
+    &_icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    &_icon_text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 100%;
+        text-transform: lowercase;
+        color: #142251;
+    }
+
+     &_icon_text:hover {
+        color: red;
+     }
+
+     &_gmail {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 100%;
+        text-decoration-line: underline;
+        text-transform: lowercase;
+        color: #213887;
+        margin: 25px;
+     }
+
+     &_gmail:hover {
+        color: red;
+     }
+
+     &_texts {
+        display: flex;
+        gap: 40px;
+        margin-top: 60px;
+        padding-left: 20px;
+     }
+
+     &_text_1 {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        text-decoration-line: underline;
+        color: #989EB1;
+     }
+
+     &_text_2 {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        text-decoration-line: underline;
+        color: #213887;
+     }
+
+     &_text_3 {
+        width: 61px;
+        height: 20px;
+     }
+
+     &_div_all {
+        display: flex;
+     }
+}
