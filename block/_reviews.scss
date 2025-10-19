@@ -1,0 +1,77 @@
+.reviews {
+    width: 1200px;
+    height: 1304px;
+    margin: 150px auto;
+    border: 5px dashed #DBA833;
+    border-radius: 20px;
+
+    &_title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 57px;
+        text-align: center;
+        color: #000000;
+        margin-top: 20px;
+    }
+
+    &_cards {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    &_card {
+        width: 990px;
+        height: 360px;
+        border: 2px solid #000;
+        border-radius: 20px;
+        margin: 20px auto;
+        display: flex;
+    }
+
+    &_card_ver_text {
+        width: 360px;
+        height: 44px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        color: #B6B6B6;
+        transform: rotate(-90deg); 
+        margin: 150px -10px;
+    }
+
+    &_card_img {
+        width: 212px;
+        height: 300px;
+        margin: 28px 25px 25px 10px;
+    }
+
+    &_card_title__text {
+        margin-top: 80px;
+    } 
+
+    &_card_title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 38px;
+        color: #DBA833;
+    }
+
+    &_card_text {
+        width: 600px;
+        height: 154px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #5B5B5B;
+    }
+}

@@ -1,12 +1,15 @@
 .gas_station {
     width: 1300px;
     height: 590px;
-    margin: 50px auto;
-    border: 1px solid ;
+    margin: 70px auto;
+    border: 1px dashed ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
 
     &_title {
-        font-family: 'Rubik';
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 48px;
@@ -35,13 +38,12 @@
     &_cards {
         display: flex;
         gap: 30px;
-        margin: auto;
     }
 
     &_card {
         width: 350px;
         height: 316px;
-        border: 1px solid red;
+        // border: 1px solid red;
         margin-top: 50px;
     }
 
@@ -58,6 +60,7 @@
         line-height: 29px;
         text-align: center;
         color: #000000;
+        margin-top: 15px;
     }
 
     &_card_title span {
@@ -76,14 +79,25 @@
         margin-left: 25px;
     }
 
+    &_btn {
+        width: 444px;
+        height: 50px;
+        background-color: #fff;
+        border: 1px solid #DBA833;
+        border-radius: 5px;
+        margin: auto; 
+    }
+    
+    &_btn:hover {
+        background-color: #000000;
+        color: blue;
+     }
 
+    &_btn:active {
+        background-color: #000000;
+        color: cyan;
+    }
 }
-
-
-
-
-
-
 
 .container_1 {
     width: 1700px;

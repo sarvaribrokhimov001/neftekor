@@ -1,0 +1,73 @@
+.our_team {
+    width: 1700px;
+    height: 684px;
+    margin: auto;
+    background-color: #000;
+
+    &_title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 40px;
+    }
+
+     &_title span {
+        color: #DBA833;
+     }
+
+     &_cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 30px;
+     }
+
+     &_card {
+        width: 350px;
+        height: 526px;
+
+     }
+
+     &_card_img {
+        width: 350px;
+        height: 400px;
+     }
+
+     &_card_title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        color: #DBA833;
+        margin-top: 10px;
+     }
+
+     &_card_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 10px;
+     }
+
+     &_card_num {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #B9B9B9;
+        margin-top: 10px;
+     }
+}

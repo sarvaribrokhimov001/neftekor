@@ -1,0 +1,99 @@
+.input {
+    width: 1700px;
+    height: 400px;
+    margin: auto;
+    background-image: url(../images/input_img.png);
+    background-size: cover;
+    position: relative;
+
+    &_title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 150px;
+        left: 340px;
+    }
+
+    &_title span {
+        color: #DBA833;
+    }
+
+    &_forms {
+        display: flex;
+        gap: 20px;
+        position: absolute;
+        top: 200px;
+        left: 340px;
+    }
+
+    &_form_1 {
+        width: 400px;
+        height: 44px;
+        border: 1px solid #fff;
+        background: rgba(30, 30, 30, 0.7);
+        backdrop-filter: blur(2px);
+        border-radius: 5px;
+        padding-left: 20px;
+       
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    &_form_2 {
+        width: 400px;
+        height: 44px;
+        border: 1px solid #fff;
+        background: rgba(30, 30, 30, 0.7);
+        backdrop-filter: blur(2px);
+        border-radius: 5px;
+        padding-left: 20px;
+     
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    &_form_3 {
+        width: 370px;
+        height: 44px;
+        background: #FFFFFF;
+        border: 2px solid #DBA833;
+        backdrop-filter: blur(2px);
+        border-radius: 5px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #DBA833;
+    }
+
+    &_form_3:hover {
+        background-color: #000;
+        color: cyan;
+    }
+
+    &_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 260px;
+        right: 150px;
+    }
+}

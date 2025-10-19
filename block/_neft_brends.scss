@@ -1,80 +1,61 @@
-.clients {
-    width: 1700px;
-    height: 1100px;
-    background-color: #E5E5E5;
+.neft_brends {
+    width: 1300px;
+    height: 210px;
     margin: auto;
-    padding-top: 120px;
-    display: flex;
-    background-image: url(../images/bg_img.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-
-    &_title { 
-        width: 323px;
-        height: 152px;
-        font-family: 'Gilroy';
+    // border: 1px solid red;
+    
+    &_title {
+        font-family: 'Inter';
         font-style: normal;
-        font-weight: 400;
-        font-size: 84px;
-        line-height: 90%;
-        color: #142251;
-        margin: 30px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 57px;
+        text-align: center;
+        color: #000;
+
     }
 
-    &_cards {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    &_card {
-        width: 438px;
-        height: 438px;
-        background-color: #fff;
-        border-radius: 20px;
-    }
-
-    &_card_sml_div {
-        width: 136px;
-        height: 136px;
-        background-color: #F2F3F8;
-        border-radius: 20px;
-        position: relative;
-        top: 20px;
-        left: 280px;
-    }
-
-    &_card_sml_div_icon {
-        font-size: 45px;
-        position: absolute;
-        top: 40px;
-        left: 45px;
-    }
-
-    &_card_text {
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 34px;
-        line-height: 140%;
-        color: #989EB1;
-        margin: 210px 30px;
+    &_title span {
+        color: #DBA833;
     }
 
     &_text {
-        width: 355px;
-        height: 164px;
-        font-family: 'Gilroy';
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 34px;
-        line-height: 120%;
-        color: #989EB1;
-        margin: 30px;
+        font-size: 18px;
+        text-align: center;
+        color: #5B5B5B;
     }
 
+    &_logos {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
 
-    
+    &_logo_1 {
+        width: 247px;
+        height: 76px;
+    }
+
+    &_logo_2 {
+        width: 122px;
+        height: 73px;
+    }
+
+    &_logo_3 {
+        width: 146px;
+        height: 75px;
+    }
+
+    &_logo_4 {
+        width: 214px;
+        height: 67px;
+    }
+
+    &_logo_5 {
+        width: 298px;
+        height: 87px;
+    }
 }
